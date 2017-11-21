@@ -1,0 +1,114 @@
+[
+    {
+        "instruction": "Go to the green tall torch", 
+        "targets": [
+            "GreenTorch"
+        ], 
+        "description": "green tall torch"
+    }, 
+    {
+        "instruction": "Go to the red short pillar", 
+        "targets": [
+            "ShortRedColumn"
+        ], 
+        "description": "red short pillar"
+    }, 
+    {
+        "instruction": "Go to the smallest yellow object", 
+        "targets": [
+            "YellowCard", 
+            "YellowSkull"
+        ], 
+        "description": "smallest yellow object"
+    }, 
+    {
+        "instruction": "Go to the blue torch", 
+        "targets": [
+            "ShortBlueTorch", 
+            "BlueTorch"
+        ], 
+        "description": "blue torch"
+    }, 
+    {
+        "instruction": "Go to the red short torch", 
+        "targets": [
+            "ShortRedTorch"
+        ], 
+        "description": "red short torch"
+    }, 
+    {
+        "instruction": "Go to the short blue object", 
+        "targets": [
+            "ShortBlueTorch"
+        ], 
+        "description": "short blue object"
+    }, 
+    {
+        "instruction": "Go to the largest blue object", 
+        "targets": [
+            "ShortBlueTorch", 
+            "BlueTorch", 
+            "BlueCard", 
+            "BlueSkull"
+        ], 
+        "description": "largest blue object"
+    }, 
+    {
+        "instruction": "Go to the short green torch", 
+        "targets": [
+            "ShortGreenTorch"
+        ], 
+        "description": "short green torch"
+    }, 
+    {
+        "instruction": "Go to the blue keycard", 
+        "targets": [
+            "BlueCard"
+        ], 
+        "description": "blue keycard"
+    }, 
+    {
+        "instruction": "Go to the short red torch", 
+        "targets": [
+            "ShortRedTorch"
+        ], 
+        "description": "short red torch"
+    }, 
+    {
+        "instruction": "Go to the short green pillar", 
+        "targets": [
+            "ShortGreenColumn"
+        ], 
+        "description": "short green pillar"
+    }, 
+    {
+        "instruction": "Go to the tall green object", 
+        "targets": [
+            "TallGreenColumn", 
+            "GreenTorch"
+        ], 
+        "description": "tall green object"
+    }, 
+    {
+        "instruction": "Go to the green armor", 
+        "targets": [
+            "GreenArmor"
+        ], 
+        "description": "green armor"
+    }, 
+    {
+        "instruction": "Go to the tall red pillar", 
+        "targets": [
+            "TallRedColumn"
+        ], 
+        "description": "tall red pillar"
+    }, 
+    {
+        "instruction": "Go to the tall pillar", 
+        "targets": [
+            "TallRedColumn", 
+            "TallGreenColumn"
+        ], 
+        "description": "tall pillar"
+    }
+]
