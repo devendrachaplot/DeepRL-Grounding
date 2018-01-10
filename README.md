@@ -1,7 +1,7 @@
 # Gated-Attention Architectures for Task-Oriented Language Grounding
 This is a PyTorch implementation of the AAAI-18 paper:
 
-[Gated-Attention Architectures for Task-Oriented Language Grounding](http://www.cs.cmu.edu/~dchaplot/papers/aaai18_grounding.pdf)<br />
+[Gated-Attention Architectures for Task-Oriented Language Grounding](https://arxiv.org/abs/1706.07230)<br />
 Devendra Singh Chaplot, Kanthashree Mysore Sathyendra, Rama Kumar Pasumarthi, Dheeraj Rajagopal, Ruslan Salakhutdinov<br />
 Carnegie Mellon University
 
