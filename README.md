@@ -39,7 +39,7 @@ python env_test.py -d easy
 ### Training Gated-Attention A3C-LSTM agent
 For training a A3C-LSTM agent with 32 threads:
 ```
-python a3c_main.py --num-threads 32 --evaluate 0
+python a3c_main.py --num-processes 32 --evaluate 0
 ```
 The code will save the best model at `./saved/model_best`.
 
