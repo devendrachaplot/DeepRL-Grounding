@@ -83,7 +83,7 @@ class A3C_LSTM_GA(torch.nn.Module):
 
         # Get the instruction representation
         encoder_hidden = Variable(torch.zeros(1, 1, self.gru_hidden_size))
-        for i in xrange(input_inst.data.size(1)):
+        for i in range(input_inst.data.size(1)):
             word_embedding = self.embedding(input_inst[0, i]).unsqueeze(0)
             _, encoder_hidden = self.gru(word_embedding, encoder_hidden)
         x_instr_rep = encoder_hidden.view(encoder_hidden.size(1), -1)

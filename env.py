@@ -134,7 +134,7 @@ class GroundingEnv:
         # Repeat the action for 5 frames.
         if self.params.visualize:
             # Render 5 frames for better visualization.
-            for _ in xrange(5):
+            for _ in range(5):
                 self.game.make_action(actions[action_id], 1)
                 # Slowing down the game for better visualization.
                 sleep(self.params.sleep)
@@ -228,7 +228,7 @@ class GroundingEnv:
             agent_y_coordinate = random_locations[0][1] + Y_OFFSET + MARGIN
             agent_orientation = np.random.randint(4)
 
-            for i in xrange(1, 6):
+            for i in range(1, 6):
                 object_x_coordinates.append(
                     random_locations[i][0] + X_OFFSET + MARGIN)
                 object_y_coordinates.append(

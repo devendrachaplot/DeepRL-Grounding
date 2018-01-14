@@ -66,7 +66,7 @@ def spawn_object(game, object_id, x, y):
     x_pos, y_pos = get_doom_coordinates(x, y)
     # call spawn function twice because vizdoom objects are not spawned
     # sometimes if spawned only once for some unknown reason
-    for _ in xrange(2):
+    for _ in range(2):
         game.send_game_command("pukename spawn_object_by_id_and_location \
                                 %i %i %i" % (object_id, x_pos, y_pos))
         pause_game(game, 1)
@@ -79,7 +79,7 @@ def spawn_agent(game, x, y, orientation):
 
 
 def pause_game(game, steps):
-    for i in xrange(1):
+    for i in range(1):
         r = game.make_action([False, False, False])
 
 
