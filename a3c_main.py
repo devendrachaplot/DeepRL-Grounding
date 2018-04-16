@@ -1,6 +1,7 @@
 import vizdoom
 import argparse
 import os
+os.environ["OMP_NUM_THREADS"] = "1"
 import numpy as np
 import torch
 import torch.multiprocessing as mp
@@ -11,8 +12,6 @@ from a3c_train import train
 from a3c_test import test
 
 import logging
-
-os.environ["OMP_NUM_THREADS"] = "1"
 
 parser = argparse.ArgumentParser(description='Gated-Attention for Grounding')
 
